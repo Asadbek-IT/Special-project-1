@@ -58,8 +58,6 @@ const FormM = () => {
             option: optionRef.current.value,
         };
 
-        console.log("Uncontrolled Form Data:", data);
-
         setUncontrolledData(JSON.stringify(data, null, 2));
 
         toast.success(`Uncontrolled Form Submitted!`, {
